@@ -1,38 +1,59 @@
 .logo{
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 80px;
     margin-left: 10px;
 }
 nav{
-    
     text-decoration: none;
     font-size: 25px;
-    margin-left: 0px;
-    
-    
+    margin-left: 0px; 
+    width: 100%;
+    text-align: center;
+    word-spacing: 70px;
+    color: black;
 }
-.nava{
-    color: brown;
+.nava {
+    color: white;
+}
+.navbar{
+    background-color: rgb(48, 26, 4);
     text-decoration: none;
-    margin-left: 30px;
-    
+    margin-left: 10px;
+    border: double 10px black;
     font-style: italic;
-    font-family: 'Creepster',cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nava:hover{
+    color: black;
+    text-decoration: none;
 }
 .h1img{
-    width: 80px;
-    height: 80px;
-    margin-left: 100px;
-    margin-top: 50px;
-    display: inline;
+    width: 150px;
+    height: 150px;
+   margin-left: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    
 }
-.anim{
-    width: 80px;
-    height: 80px;
-    margin-left: 100px;
+.tt{
+    font-family:'Creepster', cursive;
+    text-align: center;
+    -webkit-text-stroke: 2px orange;
+    margin-top: 30px;
+    font-size: 100px;
+    width: 100%;
 }
+.main {
+    text-align: center;
+}
+.treats img {
+    width: 500px;
+    height: 450px;
+    animation: hearthbeat 2s ease-in;
+}
+
 .container-fluid{
-background-color: black;
+    background-color: black;
     background-image: url(images/360_F_175416312_CLaJROwFrbqcsuVkTiH5ru5e93NGCWTE.jpg);
     padding-left: 0;
     padding-right: 0;
@@ -40,39 +61,60 @@ background-color: black;
     background-size: 100%;
 }
 .container{
-    background-color: rgb(235, 178, 74);
+   background-color: rgb(109, 41, 9);
    background-size:auto;
+   cursor: url(images/hand-drawn-halloween-background_23-2149090854.jpg);
+}
+.line {
+    border-top: 10px dotted white;
+}
+.row-info {
+    width: 100%;
+    text-align: center; 
+    display: inline-block;
    
 }
+.info {
+   text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Creepster', cursive;
+    color: black;
+}
 
-.tt{
+.anim1{
+    width: 100px;
+    height: 50px;
+    margin-left: 220px;
+}
+.anim2{
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+}
+body {
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/spider.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/spider.gif"), auto;
+}
+.tt1{
     font-family:'Creepster', cursive;
     text-align: center;
     -webkit-text-stroke: 2px orange;
-    margin-top: 80px;
+    margin-top: 30px;
+    font-size: 40px;
+    width: 100%;
 }
-.nava:hover{
-    color: black;
-    text-decoration: none;
-}
-.info{
-    font-size: 20px;
-    line-break: 20px;
+.activities {
     text-align: center;
-    font-family: fantasy;
-
+    font-size: 25px;
+    
 }
-p{
-    text-align: center;
-    margin: 10px;
-    padding: 30px;
-font-weight: bold;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);  
+ul {
+    list-style-type: none;
+    color: white;
 }
-.pimg{
-    width: 400px;
-    height: 200px
+.animate__animated.animate__heartBeat {
+    --animate-duration: 3s;
+}
+.animate__animated.animate__backInDown {
+    --animate-duration: 2s;
 }
