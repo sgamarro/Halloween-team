@@ -47,8 +47,8 @@ nav{
     text-align: center;
 }
 .treats img {
-    width: 500px;
-    height: 450px;
+    width: 400px;
+    height: 350px;
     animation: hearthbeat 2s ease-in;
 }
 
@@ -75,7 +75,6 @@ nav{
    
 }
 .info {
-   text-decoration: none;
     text-align: center;
     display: inline-block;
     font-family: 'Creepster', cursive;
@@ -100,7 +99,7 @@ body {
     text-align: center;
     -webkit-text-stroke: 2px orange;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
     width: 100%;
 }
 .activities {
@@ -111,10 +110,19 @@ body {
 ul {
     list-style-type: none;
     color: white;
+    font-size: 20px;
 }
 .animate__animated.animate__heartBeat {
     --animate-duration: 3s;
 }
 .animate__animated.animate__backInDown {
     --animate-duration: 2s;
+}
+.hover, .rotate {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.rotate:hover {
+    transform: rotate(360deg);
 }
